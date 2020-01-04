@@ -4,4 +4,4 @@ Standard diagnosis process of vocal defect involves inserting expensive specialz
 We explore another possibility through the idea of latent relationships in hidden spaces. We belive that different people which have voice deformalities will have different speech pattern than those of normal people. Let us define the space of voice signal be z, and the space of this observed images as X. So their should exist a one-one function g, which takes z to X as X=g(z). We try to find this function g with the help of a GAN(generative adversarial network) setting. GANs have shown tremendous capabilities when trying to find a generator function satisfying properties that we want.
 
 So the plan is to map sound pattern of each patient then pass it onto a function "g" learned by the neural network and get an image corresponding to that X, then a professional can simply diagnose them without the use of any expensive camera or invasive test.
- # The idea z(voice signal)-g(GAN a DNN)-X(Images)-diagnosis
+ # The idea basically; z(voice signal)-g(GAN a DNN)-X(Images)-diagnosis
